@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="13" fill="1" visible="no" active="yes"/>
@@ -94,7 +94,7 @@
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -916,57 +916,57 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U1" library="SparkFun-RF" package="RFM69HCW-XXXS2" value="RFM69HCW" x="8.6016" y="19.9956" smashed="yes" rot="MR90">
 <attribute name="MPN" value="RFM69HW" x="8.6016" y="19.9956" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PROD_ID" value="IC-11997, IC-12053" x="8.6016" y="19.9956" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="17.8148" y="18.2124" size="0.6096" layer="122" font="vector" rot="MR270" align="bottom-right"/>
+<attribute name="VALUE" x="17.8148" y="18.2124" size="0.6096" layer="121" font="vector" rot="MR270" align="bottom-right"/>
 </element>
-<element name="U$6" library="LowPowerLab" package="RFM12B-ANTENNA" value="RFM12B_ANTENNA" x="1.5268" y="18.7466"/>
+<element name="U$6" library="LowPowerLab" package="RFM12B-ANTENNA" value="RFM12B_ANTENNA" x="1.6268" y="33.9466"/>
 <element name="JP1" library="SparkFun-Connectors" package="MICRO-SD-SOCKET-PP" value="MicroSD socket" x="19.9848" y="15.4748" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-07820" x="19.9848" y="15.4748" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="33.9748" y="16.9948" size="0.6096" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="33.9748" y="16.9948" size="0.6096" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="DS3234" library="SparkFun-FreqCtrl" package="DS3234" value="DS3234" x="11.2568" y="8.67" smashed="yes" rot="R90">
 <attribute name="MPN" value="DS3234S#" x="11.2568" y="8.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="13.2618" y="1.385" size="0.6096" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="13.2618" y="1.385" size="0.6096" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="BAT1" library="SparkFun-Electromechanical" package="BATTCON_12MM" value="" x="5.768" y="26.2992" rot="R90">
 <attribute name="MPN" value="3000" x="5.768" y="26.2992" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="BATT-08044" x="5.768" y="26.2992" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="10K" x="35.3388" y="5.8672" smashed="yes" rot="R270">
-<attribute name="VALUE" x="36.4068" y="6.8022" size="0.6096" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="36.4068" y="6.8022" size="0.6096" layer="121" font="vector" rot="R270"/>
 </element>
 <element name="C15" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" value="1uF" x="35.3088" y="12.9328" smashed="yes" rot="R90">
-<attribute name="VALUE" x="36.9138" y="12.0978" size="0.6096" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="36.9138" y="12.0978" size="0.6096" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="10K" x="17.8372" y="1.2088" smashed="yes" rot="R180">
-<attribute name="VALUE" x="18.6722" y="2.4408" size="0.6096" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="18.6722" y="2.4408" size="0.6096" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" value="22pF" x="18.5088" y="7.4004" smashed="yes" rot="R90">
-<attribute name="VALUE" x="17.4654" y="8.9862" size="0.6096" layer="27" font="vector"/>
+<attribute name="VALUE" x="17.4654" y="8.9862" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="USB-MICROB" value="MicroUSB (5V)" x="20.0036" y="38.9952" smashed="yes" rot="R180">
 <attribute name="MPN" value="CONN-09505" x="20.0036" y="38.9952" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PROD_ID" value="CONN-09505" x="20.0036" y="38.9952" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" value="0.1uF" x="24.7" y="20.3" smashed="yes" rot="R90">
-<attribute name="VALUE" x="26.305" y="19.165" size="0.6096" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="26.305" y="19.165" size="0.6096" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" value="0.1uF" x="27.5" y="24.1" smashed="yes">
-<attribute name="VALUE" x="26.465" y="24.795" size="0.6096" layer="27" font="vector"/>
+<attribute name="VALUE" x="26.465" y="24.795" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="27" x="18.7" y="33.6" smashed="yes" rot="R180">
-<attribute name="VALUE" x="19.435" y="34.932" size="0.6096" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="19.435" y="34.932" size="0.6096" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="27" x="21.3" y="33.6" smashed="yes">
-<attribute name="VALUE" x="20.965" y="34.368" size="0.6096" layer="27" font="vector"/>
+<attribute name="VALUE" x="20.965" y="34.368" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="47" x="11.7" y="37.1" smashed="yes" rot="R180">
-<attribute name="VALUE" x="11.735" y="36.332" size="0.6096" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="11.735" y="36.332" size="0.6096" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="47" x="8.2" y="37.1" smashed="yes">
-<attribute name="VALUE" x="8.265" y="35.768" size="0.6096" layer="27" font="vector"/>
+<attribute name="VALUE" x="8.265" y="35.768" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="D2" library="Adafruit Feather 32u4 Bluefruit LE" package="MICROBUILDER_SOD-123" value="" x="29.6" y="36.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.77" y="36.684" size="0.6096" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="33.77" y="36.684" size="0.6096" layer="121" font="vector" rot="R180"/>
 <attribute name="VALUE" x="30.87" y="38.178" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U$5" library="ADS1x15" package="MOUNTINGHOLE_2.0_PLATED" value="MOUNTINGHOLE2.0" x="2.5" y="37.5"/>
@@ -974,10 +974,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$7" library="ADS1x15" package="MOUNTINGHOLE_2.0_PLATED" value="MOUNTINGHOLE2.0" x="37.5" y="2.5"/>
 <element name="U$8" library="ADS1x15" package="MOUNTINGHOLE_2.0_PLATED" value="MOUNTINGHOLE2.0" x="2.5" y="2.5"/>
 <element name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="10K" x="27.5" y="26.7" smashed="yes">
-<attribute name="VALUE" x="26.765" y="27.568" size="0.6096" layer="27" font="vector"/>
+<attribute name="VALUE" x="26.765" y="27.568" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="10K" x="9.7" y="17.9" smashed="yes">
-<attribute name="VALUE" x="9.065" y="18.768" size="0.6096" layer="27" font="vector"/>
+<attribute name="VALUE" x="9.065" y="18.768" size="0.6096" layer="121" font="vector"/>
 </element>
 </elements>
 <signals>
@@ -1435,8 +1435,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="ANA">
 <contactref element="U1" pad="9"/>
 <contactref element="U$6" pad="P$1"/>
-<wire x1="1.6016" y1="27.4956" x2="1.6016" y2="18.8214" width="1.016" layer="16"/>
-<wire x1="1.6016" y1="18.8214" x2="1.5268" y2="18.7466" width="1.016" layer="16"/>
+<wire x1="1.6016" y1="27.4956" x2="1.6016" y2="33.9214" width="1.016" layer="16"/>
+<wire x1="1.6016" y1="33.9214" x2="1.6268" y2="33.9466" width="1.016" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="DS3234" pad="16"/>
