@@ -168,7 +168,7 @@
 <text x="36.2498" y="19.9922" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="bottom-center">Akram Ali</text>
 <text x="38.658" y="19.9697" size="0.8128" layer="22" font="vector" ratio="9" rot="SMR270" align="bottom-center">v0.1   2017</text>
 <text x="39.1993" y="19.9951" size="0.6604" layer="21" font="vector" ratio="7" rot="R90" align="bottom-center">RFM69 Gateway logger</text>
-<text x="0.8807" y="17.0105" size="0.508" layer="21" font="vector">ANT</text>
+<text x="3.2895" y="33.4807" size="0.508" layer="21" font="vector" rot="R90">ANT</text>
 <wire x1="0" y1="2.5" x2="0" y2="37.5" width="0" layer="20"/>
 <wire x1="2.5" y1="40" x2="37.5" y2="40" width="0" layer="20"/>
 <wire x1="40" y1="37.5" x2="40" y2="2.5" width="0" layer="20"/>
@@ -938,10 +938,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="36.9138" y="12.0978" size="0.6096" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="10K" x="17.8372" y="1.2088" smashed="yes" rot="R180">
-<attribute name="VALUE" x="18.6722" y="2.4408" size="0.6096" layer="121" font="vector" rot="R180"/>
+<attribute name="VALUE" x="14.9278" y="0.8592" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" value="22pF" x="18.5088" y="7.4004" smashed="yes" rot="R90">
-<attribute name="VALUE" x="17.4654" y="8.9862" size="0.6096" layer="121" font="vector"/>
+<attribute name="VALUE" x="18.0862" y="11.3346" size="0.6096" layer="121" font="vector" rot="R270"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="USB-MICROB" value="MicroUSB (5V)" x="20.0036" y="38.9952" smashed="yes" rot="R180">
 <attribute name="MPN" value="CONN-09505" x="20.0036" y="38.9952" size="1.778" layer="27" rot="R180" display="off"/>
@@ -954,10 +954,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="26.465" y="24.795" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="27" x="18.7" y="33.6" smashed="yes" rot="R180">
-<attribute name="VALUE" x="19.435" y="34.932" size="0.6096" layer="121" font="vector" rot="R180"/>
+<attribute name="VALUE" x="19.205" y="32.802" size="0.6096" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="27" x="21.3" y="33.6" smashed="yes">
-<attribute name="VALUE" x="20.965" y="34.368" size="0.6096" layer="121" font="vector"/>
+<attribute name="VALUE" x="20.795" y="32.198" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="47" x="11.7" y="37.1" smashed="yes" rot="R180">
 <attribute name="VALUE" x="11.735" y="36.332" size="0.6096" layer="121" font="vector" rot="R180"/>
@@ -1307,10 +1307,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$7">
 <contactref element="TX" pad="MINUS"/>
 <contactref element="FT231XQ-R" pad="CBUS2"/>
-<wire x1="20.4344" y1="30.5348" x2="20.4344" y2="31.6344" width="0.254" layer="1"/>
-<wire x1="20.4344" y1="31.6344" x2="20.9" y2="32.1" width="0.254" layer="1"/>
-<via x="20.9" y="32.1" extent="1-16" drill="0.35" diameter="0.127"/>
-<wire x1="16.5" y1="32.1" x2="20.9" y2="32.1" width="0.254" layer="16"/>
+<via x="22" y="32.1" extent="1-16" drill="0.35" diameter="0.127"/>
+<wire x1="16.5" y1="32.1" x2="22" y2="32.1" width="0.254" layer="16"/>
 <via x="14.2" y="38.2" extent="1-16" drill="0.35" diameter="0.127"/>
 <wire x1="14.2" y1="38.2" x2="14.2" y2="38.6" width="0.254" layer="1"/>
 <wire x1="14.2" y1="38.6" x2="13.7" y2="39.1" width="0.254" layer="1"/>
@@ -1318,6 +1316,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="12.9063" y1="39.1" x2="12.9026" y2="39.1037" width="0.254" layer="1"/>
 <wire x1="14.2" y1="38.2" x2="14.2" y2="34.4" width="0.254" layer="16"/>
 <wire x1="14.2" y1="34.4" x2="16.5" y2="32.1" width="0.254" layer="16"/>
+<wire x1="20.4344" y1="31.7344" x2="20.8" y2="32.1" width="0.254" layer="1"/>
+<wire x1="20.8" y1="32.1" x2="22" y2="32.1" width="0.254" layer="1"/>
+<wire x1="20.4344" y1="30.5348" x2="20.4344" y2="31.7344" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="TX" pad="PLUS"/>
@@ -1383,10 +1384,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="22.5348" y1="26.5348" x2="25" y2="29" width="0.254" layer="1"/>
 <wire x1="25" y1="29" x2="25" y2="30.8" width="0.254" layer="1"/>
 <wire x1="25" y1="30.8" x2="24.9" y2="30.8" width="0.254" layer="16"/>
-<wire x1="24.9" y1="30.8" x2="24.2" y2="31.5" width="0.254" layer="16"/>
-<wire x1="22.2" y1="31.5" x2="24.2" y2="31.5" width="0.254" layer="16"/>
-<wire x1="16.9" y1="30.9" x2="21.6" y2="30.9" width="0.254" layer="16"/>
-<wire x1="21.6" y1="30.9" x2="22.2" y2="31.5" width="0.254" layer="16"/>
+<wire x1="24.2" y1="31.5" x2="24.9" y2="30.8" width="0.254" layer="16"/>
+<wire x1="22.4" y1="30.9" x2="23" y2="31.5" width="0.254" layer="16"/>
+<wire x1="23" y1="31.5" x2="24.2" y2="31.5" width="0.254" layer="16"/>
+<wire x1="16.9" y1="30.9" x2="22.4" y2="30.9" width="0.254" layer="16"/>
 </signal>
 <signal name="DTR">
 <contactref element="FT231XQ-R" pad="DTR#"/>
