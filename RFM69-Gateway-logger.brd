@@ -916,7 +916,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U1" library="SparkFun-RF" package="RFM69HCW-XXXS2" value="RFM69HCW" x="8.6016" y="19.9956" smashed="yes" rot="MR90">
 <attribute name="MPN" value="RFM69HW" x="8.6016" y="19.9956" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PROD_ID" value="IC-11997, IC-12053" x="8.6016" y="19.9956" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="17.8148" y="18.2124" size="0.6096" layer="121" font="vector" rot="MR270" align="bottom-right"/>
+<attribute name="VALUE" x="1.7148" y="18.7124" size="0.6096" layer="122" font="vector" rot="MR270" align="bottom-right"/>
 </element>
 <element name="U$6" library="LowPowerLab" package="RFM12B-ANTENNA" value="RFM12B_ANTENNA" x="1.6268" y="33.9466"/>
 <element name="JP1" library="SparkFun-Connectors" package="MICRO-SD-SOCKET-PP" value="MicroSD socket" x="19.9848" y="15.4748" smashed="yes" rot="R180">
